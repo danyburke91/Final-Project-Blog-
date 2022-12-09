@@ -1,0 +1,84 @@
+.write {
+  padding-top: 50px;
+  background-image: url("https://media.edutopia.org/styles/responsive_2880px_original/s3/sites/default/files/masters/2021-04/i519s1434-crop.jpg");
+  background-size: cover;
+}
+
+.writeImg {
+  margin-left: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: fill;
+}
+
+video {
+  width: 70%;
+  margin-left: 15rem;
+  margin-bottom: 20px;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  margin-left: 200px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(246, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  margin-left: 24px;
+
+  border: none;
+  padding: 20px;
+  width: 30vw;
+}
+
+.writeInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 40vw;
+  height: 100vh;
+  margin-left: 250px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: rgb(11, 187, 187);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

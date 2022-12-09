@@ -1,0 +1,61 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://collegian.csufresno.edu/wp-content/uploads/2019/10/download.jpeg");
+    background-size: repeat;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 15px 5;
+    padding: 10px;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(240, 128, 190);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 199);
+  }
+  
+  .loginRegisterButton {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color: rgb(158, 21, 168);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }

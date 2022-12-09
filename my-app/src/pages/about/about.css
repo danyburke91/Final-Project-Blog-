@@ -1,0 +1,43 @@
+.aboutItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+
+  .aboutItem >p {
+    border: 1px solid black;
+    border-style: inset;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: outset;
+}
+
+.aboutItem>img {
+    margin-top: 15px;
+    width: 600px;
+    height: 450px;
+}
